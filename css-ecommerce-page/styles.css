@@ -1,0 +1,79 @@
+* {
+  font-family: "DM Sans", sans-serif;
+}
+
+h1 {
+  width: 100%;
+  text-align: center;
+}
+
+.main {
+  width: 100%;
+}
+
+.imageRow {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+
+.img1 {
+  width: 20%;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.descriptionR {
+  width: 100%;
+}
+
+.priceR {
+  width: 100%;
+}
+
+.description {
+  display: flex;
+  width: 100%;
+  padding-top: 10px;
+  justify-content: space-between;
+}
+
+.price {
+  display: flex;
+  width: 100%;
+  padding-top: 10px;
+  justify-content: space-between;
+}
+
+.lv {
+  position: relative;
+  left: 10px;
+}
+
+.rf {
+  position: relative;
+  left: 25px;
+}
+
+.ysl {
+  position: relative;
+  left: -5px;
+}
+
+.size {
+  color: #dfe2e1;
+}
+
+.priceA {
+  color: #dfe2e1;
+  text-decoration: line-through;
+}
+
+.discount {
+  background-color: #fae1b3;
+  font-weight: bold;
+}
+
+.product {
+  font-weight: bold;
+}
