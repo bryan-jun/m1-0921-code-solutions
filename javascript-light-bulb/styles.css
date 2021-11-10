@@ -1,0 +1,27 @@
+.backOff {
+  background-color: #121517;
+}
+
+.backOn {
+  background-color: #fefbeb;
+}
+
+.lightbulb {
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  border-radius: 50%;
+  margin-top: -100px;
+  margin-left: -100px;
+  width: 200px;
+  height: 200px;
+  border-color: transparent;
+}
+
+.lightbulb.off {
+  background-color: #24292e;
+}
+
+.lightbulb.on {
+  background-color: #fbea9d;
+}
