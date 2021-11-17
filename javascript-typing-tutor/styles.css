@@ -1,0 +1,27 @@
+.container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.words {
+  font-size: 70px;
+}
+
+.normal {
+  color: black;
+}
+
+.wrong {
+  color: red;
+  border-bottom: 3px solid red;
+}
+
+.correct {
+  color: green;
+}
+
+.normal.current {
+  border-bottom: 3px solid #000;
+}
